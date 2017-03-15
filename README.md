@@ -2,7 +2,7 @@
 
 `git-clegn` or `git clegn` is a git command to help clean up ignored files as exist inside `.gitignore` file.
 
-After you update `.gitignore` file and committed. Then execute `git clegn` to clean up updated files that are ignored previously.
+After you update `.gitignore` file, then execute `git clegn` to clean up updated ignored files.
 
 # Installation
 
