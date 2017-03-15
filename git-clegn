@@ -1,3 +1,11 @@
 #!/bin/sh
 # git-clegn helps clean up ignored files as updated in .gitignore.
 # by Wasin Thonkaew
+ 
+. "$(git --exec-path)/git-sh-setup"
+
+# git-clegn requires working tree to operate on
+require_work_tree
+
+git rm -r --cached .
+git add .
