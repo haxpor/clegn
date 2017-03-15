@@ -1,0 +1,3 @@
+#!/bin/sh
+# git-clegn helps clean up ignored files as updated in .gitignore.
+# by Wasin Thonkaew
